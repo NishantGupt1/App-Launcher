@@ -1,0 +1,21 @@
+{
+  "short_name": "App Launcher",
+  "name": "Google Chrome App Launcher",
+  "description": "Access your Chrome apps from a browser pop-up!",
+  "version": "1.0",
+  "author": "nishantgupt1@gmail.com",
+
+  "permissions": ["management"],
+
+  "browser_action": {
+    "default_icon": "browser_action_icon.png",
+    "default_title": "App Launcher",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "48": "icon.png"
+  },
+  
+  "manifest_version": 2
+}
