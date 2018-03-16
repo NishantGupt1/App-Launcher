@@ -16,17 +16,17 @@ body {
 
 .app {
   width: 100%;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  margin-left: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 4px;
   margin-right: 20px;
   white-space: nowrap;
 }
 
 .app img {
   vertical-align: middle;
-  height: 38px;
-  width: 38px;
+  height: 50px;
+  width: 50px;
 }
 
 .app_title {
@@ -35,7 +35,7 @@ body {
 }
 
 .app:hover {
-  background-color: rgb(250,250,250);
+  background-color: rgb(179,179,179);
   cursor:pointer;
   outline: 1px dotted rgb(100,100,200);
 }

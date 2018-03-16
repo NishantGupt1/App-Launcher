@@ -20,7 +20,7 @@ function getIconURL(app) {
 
 function launchApp(id) {
   chrome.management.launchApp(id);
-  window.close(); // Only needed on OSX because of crbug.com/63594
+  window.close(); // Not needed for Windows 
 }
 
 // Adds DOM nodes for |app| into |appsDiv|.
